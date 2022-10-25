@@ -18,7 +18,12 @@ class connectfour:
         return board
 
     def calculateScore(board, player):
-        chart = {(1, 3): 10, (2, 2): 100, (3, 1): 1000, (4, 0): 99999999}
+        chart = {
+            (1, 3): 10, 
+            (2, 2): 100, 
+            (3, 1): 1000, 
+            (4, 0): 99999999
+        }
 
         score = 0
 

@@ -61,3 +61,5 @@ while boardNotFull(game):
         break
 
     print(game)
+
+input("Press enter to exit")
